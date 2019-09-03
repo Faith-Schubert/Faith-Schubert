@@ -1,8 +1,93 @@
-* {
-  margin:0px;
-  padding:0px;
+html, body{
+  font-family: BebasNeueRegular, Helvetica Neue, arial, sans-serif;
+  margin: 0;
 }
 
+header{
+  background-color: #e9edef;
+  padding: 20px;
+  text-align: center;
+}
+
+header ul{
+  text-align: right;
+}
+
+header ul li{
+  display: inline-block;
+  margin: 0 5px;
+
+}
+a {
+  display: block;
+  padding: 0 10px;
+  background-color: #e9edef;
+}
+li a:hover {
+  background-color: white;
+  color: #0032FF;
+
+.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+h1{
+  font-size: 30px;
+  color: black;
+}
+h2{
+  background-color: white;
+  padding: 40px 20px;
+}
+header img{
+  border-radius: 174px;
+  width:300px;
+  border: 24px solid white;}
+}
+
+.content{
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: blue;
+  padding: 0 20px;
+  display: block;
+
+
+
+}
+a{
+  color: gray;
+  text-decoration: none;
+
+}
+
+footer{
+  margin-top: 20px;
+  padding: 40px 100px;
+  background-color: black;
+  color: white;
+}
+
+footer ul{
+  text-align: center;
+}
+
+footer ul li{
+  display: inline-block;
+  margin: 0 5px;
+}
+img.resumephoto{
+  max-width: 100%;
+}
+
+
+body{
+  background-color: #e9edef;
+  font-size: 1.500rem;
+  line-height: 2.25rem;
+  margin: auto;
+  font-weight: 400;}
 #octocat {
   display: block;
   width:384px;
@@ -13,5 +98,6 @@ p {
   display: block;
   width: 400px;
   margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  background-color: white;
+  font: 30px BebasNeueRegular, Helvetica Neue, arial, sans-serif;Vera Sans Mono",monospace;
 }
